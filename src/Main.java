@@ -21,9 +21,9 @@ public class Main {
         }
 
         // Итоговое количество бонусов
-        int x7 = balance + refill + bonus;
+        int result = balance + refill + bonus;
 
-        System.out.println("Счет абонента: " + x7);
+        System.out.println("Счет абонента: " + result);
         System.out.println("Зачисленные бонусы: " + bonus);
     }
 }
